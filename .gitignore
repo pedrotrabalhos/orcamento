@@ -1,0 +1,52 @@
+# Projeto Python
+# Mantenha versionados: codigo-fonte, README, requirements e arquivos de configuracao do projeto.
+# Ignore: caches, ambientes virtuais, arquivos locais da IDE e artefatos gerados durante a execucao.
+
+# Bytecode e caches do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Ferramentas de teste, tipagem e cobertura
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Ambientes virtuais
+.venv/
+venv/
+env/
+ENV/
+
+# Arquivos de ambiente local
+.env
+.env.*
+
+# Build e empacotamento
+build/
+dist/
+site/
+*.egg-info/
+.eggs/
+pip-wheel-metadata/
+
+# IDEs e editores
+.idea/
+.vscode/
+*.code-workspace
+
+# Arquivos do sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Ferramentas locais
+.codex/
+
+# Artefatos gerados pela aplicacao
+orcamento.csv
